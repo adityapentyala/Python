@@ -50,20 +50,20 @@ y_train = np.delete(y_train_raw, indices)
 
 '''def visualize_data(positive_images, negative_images):
     
-    figure = plt.figure()
+    figure = plot.figure()
     count = 0
     for i in range(positive_images.shape[0]):
         count += 1
         figure.add_subplot(2, positive_images.shape[0], count)
-        plt.imshow(positive_images[i, :, :])
-        plt.axis('off')
-        plt.title("1")
+        plot.imshow(positive_images[i, :, :])
+        plot.axis('off')
+        plot.title("1")
 
         figure.add_subplot(1, negative_images.shape[0], count)
-        plt.imshow(negative_images[i, :, :])
-        plt.axis('off')
-        plt.title("0")
-    plt.show()
+        plot.imshow(negative_images[i, :, :])
+        plot.axis('off')
+        plot.title("0")
+    plot.show()
 
 N_TO_VISUALIZE = 10
 
