@@ -1,1 +1,2 @@
-PGN reader implemented in python using pygame as part of 12th grade computer science project.
+Interactive PGN reader implemented in python using pygame as part of 12th grade computer science project.
+Portable Game Notation (PGN) is a text-based file format used to store moves of a chess game in standardised computer notation.
